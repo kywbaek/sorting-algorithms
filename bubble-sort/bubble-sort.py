@@ -2,8 +2,8 @@ def bubbleSort(arr):
     for end in xrange(len(arr) - 1, 0, -1):
         swap = 0
         for i in xrange(end):
-            if a[i] > a[i + 1]:
-                a[i], a[i + 1] = a[i + 1], a[i]
+            if arr[i] > arr[i + 1]:
+                arr[i], arr[i + 1] = arr[i + 1], arr[i]
                 swap += 1
         if swap == 0:
             break
