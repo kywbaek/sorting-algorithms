@@ -12,7 +12,7 @@ class InsertionSort {
         return arr;
     }
 
-    public static void main(STring[] args) {
+    public static void main(String[] args) {
         int[] arr1 = {21, 4, 1, 3, 9, 20, 25, 6, 21, 14};
         int[] arr2 = {};
         int[] arr3 = {7, 5};
