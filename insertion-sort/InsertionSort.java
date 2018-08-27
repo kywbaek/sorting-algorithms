@@ -1,3 +1,5 @@
+import java.util.*;
+
 class InsertionSort {
     static int[] insertionSort(int[] arr) {
         for (int i=1; i<arr.length; i++) {
