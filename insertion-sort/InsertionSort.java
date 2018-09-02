@@ -20,12 +20,12 @@ class InsertionSort {
         int[] arr3 = {7, 5};
 
         // Expected result: [1, 3, 4, 6, 9, 14, 20, 21, 21, 25]
-        System.out.println(insertionSort(arr1));
+        System.out.println(Arrays.toString(insertionSort(arr1)));
 
         // Expected result: []
-        System.out.println(insertionSort(arr2));
+        System.out.println(Arrays.toString(insertionSort(arr2)));
 
         // Expected result: [5, 7]
-        System.out.println(insertionSort(arr3));
+        System.out.println(Arrays.toString(insertionSort(arr3)));
     }
 }
