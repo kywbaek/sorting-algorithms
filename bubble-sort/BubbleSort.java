@@ -1,3 +1,5 @@
+import java.util.*;
+
 class BubbleSort {
   static int[] bubbleSort(int[] arr) {
     int swap, temp;
