@@ -21,29 +21,17 @@ class BubbleSort {
   }
 
   public static void main(String[] args) {
-    int[] output;
-
     int[] arr1 = {21, 4, 1, 3, 9, 20, 25, 6, 21, 14};
-    output = bubbleSort(arr1);
-    // Expected result: [1, 3, 4, 6, 9, 14, 20, 21, 21, 25]
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
-
     int[] arr2 = {};
-    output = bubbleSort(arr2);
-    // Expected result: []
-    System.out.println("");
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    int[] arr3 = {7, 5};
 
-    int[] arr3 = {3};
-    output = bubbleSort(arr3);
-    // Expected result: [3]
-    System.out.println("");
-    for (int i: output) {
-      System.out.print(i+" ");
-    }
+    // Expected result: [1, 3, 4, 6, 9, 14, 20, 21, 21, 25]
+    System.out.println(Arrays.toString(bubbleSort(arr1)));
+
+    // Expected result: []
+    System.out.println(Arrays.toString(bubbleSort(arr2)));
+
+    // Expected result: [5, 7]
+    System.out.println(Arrays.toString(bubbleSort(arr3)));
   }
 }
